@@ -205,4 +205,65 @@ footer a {
 footer a:hover { 
     color: #fff;
 }
-   
+
+@media all and (max-width: 800px) {
+nav.menu h1.name {
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+nav.menu {
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    padding: 3%;
+}
+
+ul.list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    height: 90px;
+}
+
+.list li {
+    margin-top: 5%;
+}
+
+div.container {
+    height: 400px;
+}
+
+div.box {
+    margin-top: 10%;
+}
+
+div.box-flex {
+    display: inline-block;
+    margin-left: 6%;
+    margin-right: auto;
+}
+}
+
+@media all and (max-width: 500px) {
+div.container {
+    margin-left: 10%;
+    background-size: 230%;
+    margin-left: 2%;
+    margin-top: 0px;
+    padding: 0px;
+    width: 450px;
+    height: 400px;
+}
+
+div.box {
+    padding-top: 20%;
+}
+
+div.column {
+    margin-left: 6%;
+    padding-left: 5%;
+}
+}
+
